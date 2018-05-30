@@ -1,0 +1,17 @@
+{
+  "name": "layouts",
+  "version": "1.0.0",
+  "description": "scss-hooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass assets/scss/styles.scss assets/css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run mix-scss\""
+  },
+  "author": "tojehara",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.0",
+    "nodemon": "^1.17.4"
+  }
+}

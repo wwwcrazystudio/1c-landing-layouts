@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Контакты</title>
+	<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+	<section class="contacts">
+		<header class="content">
+			<div class="logo">
+				<img src="assets/img/Wow1c.png" alt="Wow1c">
+			</div>
+			<div class="menu">
+				<ul class="no-style">
+					<li> 
+					<a href="./index.html">Кто я</a>
+					</li>
+					<li><a href="./portfolio.html">Работы</a></li>
+					<li><a href="#" class="active">Контакты</a></li>
+				</ul>
+				<div class="lang">
+					<span class="dropbtn" onclick="dropdown()">rus </span>
+					<ul id="dropdown" class="dropdown dropdown-content">
+						<li>rus</li>
+						<li>eng</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+
+		<div class="content contacts-content">
+			<div class="title">Контакты</div>
+			<div class="descr">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее.</div>
+			<button name="order-modal" id="portfolio-btn">
+				Сделать заказ
+			</button>
+		</div>
+
+	</section>
+
+	<section class="callback">
+		<div class="content">
+			<div class="contact-data">
+				<ul>
+					<li>
+						<div class="key">Телефон:</div>
+						<div class="value">
+							+7 (956) 263-44-55
+						</div>
+					</li>
+					<li>
+						<div class="key">Почта:</div>
+						<div class="value">
+							wow1c@gmail.com
+						</div>
+					</li>
+					<li>
+						<div class="key">Адрес:</div>
+						<div class="value">
+							г. Москва, ул. Ленина, д. 22
+						</div>
+					</li>
+					<li>
+					<div class="feedback">
+						<a href="#">
+							<img src="assets/img/skype-o.png" alt="Skype">
+						</a>
+						<a href="#">
+							<img src="assets/img/email-o.png" alt="Mail">
+						</a>
+						<a href="#">
+							<img src="assets/img/telegram-o.png" alt="Telegram">
+						</a>
+					</div>
+					</li>
+				</ul>
+			</div>
+			<div class="form-callback">
+				<form action="" id="callback">
+					<div class="wrapper">
+						<div class="name">
+							<label for="name">Имя</label>
+							<input type="text" name="name">
+						</div>
+						<div class="phone">
+							<label for="phone">Телефон</label>
+							<input type="text" name="phone">
+						</div>
+					</div>
+					<div class="wrapper">
+						<div class="message">
+							<label for="message">Оставьте ваше сообщение</label>
+							<textarea name="message"></textarea>
+						</div>
+					</div>
+					<div class="wrapper submit-wrapper">
+						<input type="submit" value="Отправить заявку">
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<footer class="compact-footer">
+		<div class="signature">© 2018 Wow1c.  All rights reserved.</div>
+	</footer>
+	<script src="assets/js/libs/siema.min.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
